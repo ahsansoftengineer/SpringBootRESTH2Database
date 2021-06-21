@@ -22,7 +22,9 @@ public class ChapterService implements IChapterService {
 
     @Override
     public Chapter getChapter(int chapterId) {
-        Chapter chapter =  (Chapter) chapterDao.getById(chapterId);
+        // This is not working for some Reason Fix it later
+        // threw exception [Request processing failed; nested exception
+        Chapter chapter = chapterDao.getById(chapterId);
         System.out.println(chapter);
         return chapter;
     }

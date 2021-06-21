@@ -1,11 +1,9 @@
 package com.jersey.restapi;
 
-import javax.print.attribute.standard.Media;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
-import java.awt.*;
 
 @Path("aliens")
 public class AlienResource {
