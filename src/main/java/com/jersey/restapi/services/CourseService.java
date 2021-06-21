@@ -1,19 +1,18 @@
 package com.jersey.restapi.services;
 
 import com.jersey.restapi.entities.Course;
-import org.jvnet.hk2.annotations.Service;
+import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 import java.util.stream.Collectors;
 
 @Service
 public class CourseService implements ICourseService {
 
-    public List<Course> courses = new ArrayList<>();
+    public List<Course> courses;
 
     public CourseService() {
+         courses = new ArrayList<>();
         courses.add(new Course(1, "Java", "Interpreter and Compiled Language"));
         courses.add(new Course(2, "C#", "Interpreter and Compiled Language"));
         courses.add(new Course(3, "Python", "Interpreter and Compiled Language"));

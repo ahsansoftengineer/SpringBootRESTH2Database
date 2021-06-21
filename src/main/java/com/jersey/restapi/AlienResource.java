@@ -14,7 +14,7 @@ public class AlienResource {
     public Alien getAlien(){
         System.out.println("Get Alien Called");
         Alien a1 = new Alien();
-        a1.setName("Ahsan");
+        a1.setName("John");
         a1.setPoints(78);
         return a1;
     }
