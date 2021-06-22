@@ -1,4 +1,4 @@
-package com.jersey.restapi.entities;
+package com.springboot.dugesh.entities;
 
 public class Course {
     private long id;

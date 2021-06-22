@@ -1,7 +1,7 @@
-package com.jersey.restapi.controller;
+package com.springboot.dugesh.controller;
 
-import com.jersey.restapi.entities.Chapter;
-import com.jersey.restapi.services.IChapterService;
+import com.springboot.dugesh.entities.Chapter;
+import com.springboot.dugesh.services.IChapterService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

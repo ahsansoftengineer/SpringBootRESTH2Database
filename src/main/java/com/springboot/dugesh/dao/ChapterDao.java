@@ -1,6 +1,6 @@
-package com.jersey.restapi.dao;
+package com.springboot.dugesh.dao;
 
-import com.jersey.restapi.entities.Chapter;
+import com.springboot.dugesh.entities.Chapter;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 

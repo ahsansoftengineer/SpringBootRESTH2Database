@@ -1,7 +1,7 @@
-package com.jersey.restapi.services;
+package com.springboot.dugesh.services;
 
-import com.jersey.restapi.dao.ChapterDao;
-import com.jersey.restapi.entities.Chapter;
+import com.springboot.dugesh.dao.ChapterDao;
+import com.springboot.dugesh.entities.Chapter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

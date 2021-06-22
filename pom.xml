@@ -14,6 +14,10 @@
 	<name>restapi</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
+		<!-- This is Nessary for Servlet-->
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncodding>UTF-8</project.reporting.outputEncodding>
+
 		<java.version>16</java.version>
 	</properties>
 	<dependencies>
@@ -43,6 +47,18 @@
 		  <version>8.0.25</version>
 		  <scope>runtime</scope>
 		</dependency>
+		<!-- Required to understand JSP Page-->
+		<dependency>
+			<groupId>org.apache.tomcat</groupId>
+			<artifactId>tomcat-jasper</artifactId>
+			<version>9.0.46</version>
+		</dependency>
+		<!-- H2 database is simpler and faster-->
+<!--		<dependency>-->
+<!--			<groupId>com.h2database</groupId>-->
+<!--			<artifactId>h2</artifactId>-->
+<!--			<scope>runtime</scope>-->
+<!--		</dependency>-->
 <!--		Was included by Telesko not required -->
 <!--        <dependency>-->
 <!--            <groupId>jakarta.ws.rs</groupId>-->

@@ -1,6 +1,6 @@
-package com.jersey.restapi.services;
+package com.springboot.dugesh.services;
 
-import com.jersey.restapi.entities.Chapter;
+import com.springboot.dugesh.entities.Chapter;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 

@@ -1,6 +1,6 @@
-package com.jersey.restapi.services;
+package com.springboot.dugesh.services;
 
-import com.jersey.restapi.entities.Course;
+import com.springboot.dugesh.entities.Course;
 import org.springframework.stereotype.Service;
 
 import java.util.*;

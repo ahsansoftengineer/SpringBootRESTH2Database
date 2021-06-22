@@ -1,8 +1,8 @@
-package com.jersey.restapi.controller;
+package com.springboot.dugesh.controller;
 
-import com.jersey.restapi.entities.Course;
-import com.jersey.restapi.services.CourseService;
-import com.jersey.restapi.services.ICourseService;
+import com.springboot.dugesh.entities.Course;
+import com.springboot.dugesh.services.CourseService;
+import com.springboot.dugesh.services.ICourseService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

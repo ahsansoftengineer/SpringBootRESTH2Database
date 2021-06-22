@@ -1,26 +1,22 @@
-package com.jersey.restapi.entities;
+package com.springboot.telesko.restapi.model;
 
-import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
 @Entity
-public class Chapter {
+public class Alien {
     @Id
     private int id;
     private String name;
-    @Column(name = "total_page")
-    private int totalPage;
+    private String gender;
 
-    public Chapter() {
-        super();
+    public Alien() {
     }
 
-    public Chapter(int id, String name, int totalPage) {
-        super();
+    public Alien(int id, String name, String gender) {
         this.id = id;
         this.name = name;
-        this.totalPage = totalPage;
+        this.gender = gender;
     }
 
     public int getId() {
@@ -39,20 +35,20 @@ public class Chapter {
         this.name = name;
     }
 
-    public int getTotalPage() {
-        return totalPage;
+    public String getGender() {
+        return gender;
     }
 
-    public void setTotalPage(int totalPage) {
-        this.totalPage = totalPage;
+    public void setGender(String gender) {
+        this.gender = gender;
     }
 
     @Override
     public String toString() {
-        return "Chapter{" +
+        return "Alien{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
-                ", totalPage=" + totalPage +
+                ", gender='" + gender + '\'' +
                 '}';
     }
 }
